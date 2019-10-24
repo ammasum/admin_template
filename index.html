@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/build/css/build.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="main-header">
+        <nav class="navbar navbar-expand-md">
+          <div class="navbar-header">
+            <h3>Header</h3>
+          </div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" id="sidebarCollaspe" href="#">
+                <i class="far fa-align-justify"></i>
+              </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                id="sssss"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="sssss">
+                <a class="dropdown-item" href="#">Action</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                id="messageDropDown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fal fa-sms"></i>
+              </a>
+
+              <div
+                class="dropdown-menu costom-dropdown"
+                aria-labelledby="messageDropDown"
+              >
+                <ul>
+                  <li
+                    class="dropdown-header bg-gradient p-4 text-white text-left"
+                  >
+                    Notifications
+                    <a
+                      href="#"
+                      class="float-right btn btn-square btn-inverse-light btn-c-1 m-0"
+                    >
+                      <span class="font-13"> Clear all</span></a
+                    >
+                  </li>
+                  <li class="dropdown-body min-h-240 nicescroll">
+                    <ul
+                      class="scrollbar scroll_dark max-h-240 mCustomScrollbar _mCS_2 mCS-autoHide"
+                      style="position: relative; overflow: visible;"
+                    >
+                      <li>
+                        <a href="javascript:void(0)">
+                          <div
+                            class="notification d-flex flex-row align-items-center"
+                          >
+                            <div
+                              class="notification-icon bg-img align-self-center"
+                            >
+                              <div class="bg-type bg-type-md">
+                                <span>HY</span>
+                              </div>
+                            </div>
+                            <div class="notification-content">
+                              <p class="font-weight-bold">
+                                New registered user
+                              </p>
+                              <small>Just now</small>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">
+                          <div
+                            class="notification d-flex flex-row align-items-center"
+                          >
+                            <div
+                              class="notification-icon bg-img align-self-center"
+                            >
+                              <div class="bg-type bg-type-md">
+                                <span>HY</span>
+                              </div>
+                            </div>
+                            <div class="notification-content">
+                              <p class="font-weight-bold">
+                                New registered user
+                              </p>
+                              <small>Just now</small>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-footer">
+                    <a class="font-13" href="javascript:void(0)">
+                      View All Notifications
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <aside class="main-sidebar">
+        <div class="sidebar-container">
+          <ul class="sidebar-menu">
+            <li class="menu-item static-text">Personal</li>
+            <li class="menu-item">
+              <a href="index.html">
+                <i class="fa fa-chess-rook-alt"></i>
+                <span class="nav-title">Dashboards</span>
+              </a>
+            </li>
+            <li class="menu-item dropdown">
+              <a class="has-arrow" href="javascript:void(0)">
+                <i class="fa fa-paperclip"></i>
+                <span class="nav-title">Forms</span>
+                <span class="arrow-icon">9</span>
+              </a>
+              <ul class="sidebar-menu-dropdown">
+                <li class="menu-item dropdown">
+                  <a class="has-arrow" href="#">
+                    <span class="nav-title">Item</span>
+                    <span class="arrow-icon">9</span>
+                  </a>
+                </li>
+                <li class="menu-item dropdown">
+                  <a class="has-arrow" href="javascript:void(0)">
+                    multi level
+                  </a>
+                  <ul class="sidebar-menu-dropdown">
+                    <li class="menu-item">
+                      <a href="#">Multi level</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="content-wrapper">
+        <div class="container-fluid">
+          <div class="row justify-content-center" >
+            <div class="col-md-6 text-center">
+              Dashboards
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    <script src="assets/vendors/jquery/jquery.js"></script>
+    <!-- jquery 3.4 -->
+    <script src="assets/vendors/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/build/js/build.js"></script>
+  </body>
+</html>
+
+<!-- <li>
+  <a class="has-arrow" href="javascript:void(0)" aria-expanded="false">
+    <i class="nav-icon ti ti-list"></i>
+    <span class="nav-title">Multi Level</span>
+  </a>
+  <ul aria-expanded="false">
+      <li> <a href="javascript: void(0);">Level 1.1</a> </li>
+      <li class="scoop-hasmenu">
+          <a class="has-arrow" href="javascript: void(0);">Level 1.2</a>
+          <ul aria-expanded="false">
+              <li> <a href="javascript: void(0);">Level 2.1</a> </li>
+              <li> <a href="javascript: void(0);">Level 2.2</a> </li>
+          </ul>
+      </li>
+  </ul>
+</li> -->

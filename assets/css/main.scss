@@ -1,0 +1,13 @@
+@import 'common';
+
+
+.wrapper{
+    height: auto;
+    min-height: 100%;
+    position: relative;
+}
+@import 'header';
+
+@import 'aside';
+
+@import 'content-wrapper';
